@@ -1,1 +1,8 @@
 # email-chat-bot
+
+add this  env 
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+GOOGLE_API_KEY=
+SMTP=
+IMAP=
