@@ -1,0 +1,28 @@
+[project]
+name = "email-app"
+version = "1"
+description = ""
+authors = [
+    {name = "samarth lavhate",email = "samarthlavhate00@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv (>=0.9.9,<0.10.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "fastapi (>=0.115.12,<0.116.0)",
+    "huggingface-hub (>=0.30.2,<0.31.0)",
+    "pywin32 (>=310,<311)",
+    "google-generativeai (>=0.8.4,<0.9.0)",
+    "pytesseract (>=0.3.13,<0.4.0)",
+    "mcp (>=1.6.0,<2.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "imap-tools (>=1.10.0,<2.0.0)",
+    "fitz (>=0.0.1.dev2,<0.0.2)",
+    "pymupdf (>=1.25.5,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
